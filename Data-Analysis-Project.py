@@ -92,8 +92,6 @@ def read_data_from_link(link, separator, sheet_name):
         # Return None if no link is provided
         return None
 
-
-
 def calculate_data(st, df_raw, operation, selected_columns=None):
     try:
         # Perform different operations based on the user's choice
@@ -246,7 +244,6 @@ def handle_submit_value(df, index_column_value, index_row_value):
             st.warning(f"No value found for row {index_row_value} and column {index_column_value}.")
     else:
         st.warning("Please choose valid row and column indices for indexing.")
-
 
 def calculate_operation(df, operation, selected_columns=None):
     try:
@@ -1262,8 +1259,6 @@ def main():
                 two_way_anova(st, df_raw, group_column1, group_column2, value_column)
             except ValueError as e:
                 st.error(f"Error performing two-way ANOVA: {str(e)}")
-
-
 
 # Run the main function
 if __name__ == "__main__":
