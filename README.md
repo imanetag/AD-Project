@@ -63,7 +63,7 @@ requests==2.26.0
 Now that the dependencies are installed, you can run the Streamlit application. Make sure you are in the project directory and the virtual environment is activated.
 
 ```bash
-streamlit run data-analysis-project.py
+streamlit run Data-Analysis-Project.py
 
 ```
 Replace **"PROJECT-AD.py"** with the name of your Streamlit application file.
