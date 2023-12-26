@@ -66,7 +66,7 @@ Now that the dependencies are installed, you can run the Streamlit application. 
 streamlit run Data-Analysis-Project.py
 
 ```
-Replace **"PROJECT-AD.py"** with the name of your Streamlit application file.
+Replace **"Data-Analysis-Project.py"** with the name of your Streamlit application file.
 
 This will start a local development server, and you can access the application in your web browser at [localhost](http://localhost:8501).
 
