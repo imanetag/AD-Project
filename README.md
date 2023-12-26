@@ -71,7 +71,7 @@ Replace **"PROJECT-AD.py"** with the name of your Streamlit application file.
 This will start a local development server, and you can access the application in your web browser at [localhost](http://localhost:8501).
 
 # Usage
-Explore the interactive,user-friendly and interactive platform allowing users to easily load, process, analyze, visualize tabular data and perform analysis testing.
+Explore the user-friendly and interactive platform allowing users to easily load, process, analyze, visualize tabular data and perform analysis testing.
 
 # Contributors
 
